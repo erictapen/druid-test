@@ -10,6 +10,8 @@
         buildInputs = with pkgs; [
           pkg-config
           gtk3
+          rustc
+          cargo
         ];
         # LD_LIBRARY_PATH = pkgs.lib.makeLibraryPath (with pkgs; [ ]);
       };
